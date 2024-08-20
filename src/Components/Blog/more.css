@@ -1,0 +1,26 @@
+/* more.css */
+.moreBlog {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .moreBlogImage {
+    width: 100%;
+    height: 450px;
+    border-radius: 0px;
+  }
+  
+  .moreBlogContent {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .moreBlog {
+      padding: 10px;
+    }
+    h2{
+      font-size: 20px;
+    }
+  }
+  

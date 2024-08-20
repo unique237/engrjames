@@ -1,0 +1,44 @@
+/* Nopage.css */
+
+.nopage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+}
+
+.nopage-heading {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.nopage-subheading {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.nopage-link {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nopage-link:hover {
+    text-decoration: underline;
+    color: #cc5200;
+}
+
+@media (max-width: 600px) {
+    .nopage-heading {
+        font-size: 2rem;
+    }
+
+    .nopage-subheading {
+        font-size: 1.2rem;
+    }
+}

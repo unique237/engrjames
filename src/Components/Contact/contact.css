@@ -1,0 +1,102 @@
+/* src/components/contact.css */
+
+.contactSection {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contactHeading {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #61dafb;
+    text-align: center;
+  }
+  
+  .contactForm {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .formGroup label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .formGroup input,
+  .formGroup select,
+  .formGroup textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .formGroup textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .submitButton {
+    background-color: #61dafb;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 45%;
+    margin-top: 20px;
+  }
+
+  .clearButton{
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 45%;
+    margin-top: 20px;
+  }
+  
+  .submitButton:hover {
+    background-color: #21a1f1;
+  }
+
+  #phonePrefix{
+    width: 150px;
+  }
+
+  #prefix{
+    width: 100px;
+  }
+  
+  @media (max-width: 768px) {
+    .contactForm {
+      padding: 20px;
+    }
+  
+    .contactHeading {
+      font-size: 2rem;
+    }
+  }
+  

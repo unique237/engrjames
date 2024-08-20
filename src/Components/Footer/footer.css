@@ -1,0 +1,145 @@
+.footer {
+    background-color: #282c34;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    /*max-width: 1200px;*/
+    margin: 0 auto;
+}
+
+Link{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footerColumn {
+    flex: 1;
+    min-width: 350;
+    margin-bottom: 20px;
+    padding: 0 25px;
+}
+
+.footerColumn h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+.footerColumn p,
+.footerColumn ul {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.footerList {
+    list-style: none;
+    padding: 0;
+}
+
+.footerList li {
+    margin-bottom: 10px;
+}
+
+.footerList li .icon {
+    margin-right: 5px;
+    color: #61dafb;
+}
+
+.subscribeForm {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.subscribeForm input {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 350px;
+    margin-right: 10px;
+}
+
+.subscribeForm button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #61dafb;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribeForm button:hover {
+    background-color: #21a1f1;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.socialIcons a {
+    color: #61dafb;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.socialIcons a:hover {
+    color: #21a1f1;
+}
+
+.footerBottom {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .footerContainer {
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .footerColumn {
+        text-align: center;
+    }
+
+    .footerColumn h2{
+        text-align: left;
+    }
+
+    .subscribeForm {
+        flex-direction: flex;
+    }
+
+    .subscribeForm input {
+        
+        width: 65%;
+    }
+
+    .subscribeForm button{
+        margin-bottom: 10px;
+        width: 30%;
+    }
+
+    .socialIcons {
+        align-items: flex-end;
+        margin-top: 10px;
+        padding-left: 80px;
+    }
+}
