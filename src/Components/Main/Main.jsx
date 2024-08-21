@@ -13,7 +13,7 @@ export const Main = () => {
         <h1>Welcome</h1>
         <h2>My name is MBAME MBAME Martin James, Software Engineer and Data Analyst.</h2>
         <p>Discover my work, skills, and projects.</p>
-        <a href="#index.html" className="viewProjectButton">My Resumé <FaDownload /></a>
+        <a href="https://drive.google.com/file/d/1Htlh8Pt9bkp_PiloptIN6CJhvTjfll_M/view?usp=sharing" className="viewProjectButton">My Resumé <FaDownload /></a>
       </div>
     </div>
   );

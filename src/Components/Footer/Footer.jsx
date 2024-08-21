@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './footer.css';
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaPhoneAlt } from 'react-icons/fa';
+import { FaTwitter, FaLinkedin, FaPhoneAlt, FaGithub } from 'react-icons/fa';
 import { TfiEmail } from "react-icons/tfi";
 import { Link } from 'react-router-dom';
 import axios from 'axios';
@@ -94,17 +94,17 @@ export const Footer = () => {
           {error && <p className="error-message">{error}</p>}
           {message && <p className="success-message">{message}</p>}
           <div className="socialIcons">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+            <a href="https://github.com/unique237/" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+            <a href="https://x.com/unique_237" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+            <a href="https://www.linkedin.com/in/james-martin-mbame-mbame-3aa03a226/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+            
           </div>
           <p><FaPhoneAlt />. (+237) 621 116 032 / 697 720 509</p>
           <p><TfiEmail />. martin44line@gmail.com</p>
         </div>
       </div>
       <div className="footerBottom">
-        <p>&copy; 2024 MyPortfolio. All rights <Link to='/login'>reserved.</Link></p>
+        <p>&copy; 2024 Engr. James. All rights <Link to='/login'>reserved.</Link></p>
       </div>
     </footer>
   );
